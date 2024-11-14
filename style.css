@@ -1,0 +1,40 @@
+/* Index.html */
+h1 {
+    font-size: 50px;
+    background-color: lightcoral;
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+
+.cheeseburger,
+.chickenwrap,
+.scrambledegg {
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cheeseburger {
+    color: white;
+}
+.chickenwrap {
+    color: white;
+}
+
+.scrambledegg {
+    color: white;
+}
+
+/* Cheeseburger.html */
+
+
+/* Chickenwrap.html */
+
+/* Scrambledegg.html */
+

@@ -5,5 +5,4 @@ Project: Recipe Website
 Skills required
 - HTML
 - CSS (implemented later) - NOT COMPLETE
-
  
