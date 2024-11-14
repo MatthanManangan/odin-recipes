@@ -12,6 +12,48 @@ body {
     background-color: lightsalmon;
 }
 
+/* 
+    Margin and padding with list items of layout, colors and styles
+*/
+
+ul li {
+    align-items: center;
+    display: flex;
+    margin: 1.5em;
+    width: 200px;
+    height: 35px;
+    padding: 1em;
+    position: relative;
+    border-radius: 5px;
+}
+
+ul li::before,
+ul li::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: 5px;
+    width: 105%;
+    transition: all 0.4s;
+}
+ul li::before {
+    left: 0%;
+    height: 130%;
+    background: linear-gradient(to right, lightcoral, lightcoral);
+}
+ul li::after {
+    left: -10%;
+    height: 120%;
+    background: #ffffff56;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.164);
+}
+ul li:hover::before {
+    transform: translateX(-2.5%);
+}
+ul li:hover::after {
+    transform: translateX(15%);
+}
 
 .cheeseburger,
 .chickenwrap,
@@ -19,22 +61,18 @@ body {
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Cheeseburger.html */
 
 .cheeseburger {
     color: white;
 }
+/* Chickenwrap.html */
 .chickenwrap {
     color: white;
 }
 
+/* Scrambledegg.html */
 .scrambledegg {
     color: white;
 }
-
-/* Cheeseburger.html */
-
-
-/* Chickenwrap.html */
-
-/* Scrambledegg.html */
 
